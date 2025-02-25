@@ -8,8 +8,8 @@ env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
   ECS_CLUSTER: first_ECS_Cluster
   ECR_REPOSITORY: repo_ecs
-  ECS_SERVICE: my_first_service_ecs
-  CONTAINER_NAME: my_first_container_ecs
+  ECS_SERVICE: Service_25_feb
+  CONTAINER_NAME: 25_feb_container
   TASK_DEFINITION: my_first_task_def_ecs
 
 jobs:
